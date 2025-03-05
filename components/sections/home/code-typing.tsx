@@ -8,19 +8,25 @@ const defaultProps = {
 };
 
 const codeSnippet = `// Welcome to my AI-Powered Portfolio! 🚀
-import { NextDeveloper } from 'agakadela';
+import { MobileDeveloper, WebDeveloper, BackEndDeveloper } from 'joshua-inyang';
+
+
+
 import { AIExpertise } from '@/skills';
+
 
 function createAmazingWebsite() {
   const mySkills = {
     webDev: ["Next.js", "React", "TS"],
+    mobileDev: ["React Native", "Flutter"],
+    backendDev: ["Node.js", "Express", "Fast API", "Python"],
     aiTools: ["ChatGPT", "ML"],
-    passion: "Building AI web apps"
+    passion: "Building AI apps"
   };
 
   return {
     message: "Let's work together!",
-    services: ["Web Apps", "AI Features",],
+    services: ["Web Apps", "Mobile Apps", "AI Features",],
     contact: "Scroll down to connect →"
   };
 };`;

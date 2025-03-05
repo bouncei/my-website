@@ -40,10 +40,10 @@ export default function Header() {
       <div className="w-14 flex items-center justify-center flex-shrink-0 font-bold">
         <Image
           src="/imgs/logo.png" // Update this path to match your logo's location in the public folder
-          alt="AK Logo"
+          alt="bouncey Logo"
           width={24}
           height={24}
-          className="object-contain"
+          className="object-contain rounded-full"
         />
       </div>
       <div className="flex items-center size-full">

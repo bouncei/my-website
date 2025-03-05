@@ -1,28 +1,28 @@
-import { Github, Linkedin, Youtube } from "lucide-react";
+import { Github, Instagram, Linkedin, Youtube } from "lucide-react";
 
 const data = {
   home: {
-    name: "Aga Kadela",
+    name: "Joshua Inyang",
     description:
-      "I Fix, Optimize & Build #Next_js & #React Apps - Powered by #AI", // # -> for css style, _ -> create space, __ -> creates dash
+      "I Fix, Optimize & Build #Software as a Full-stack #Mobile & #Web Engineer                - Powered by #AI", // # -> for css style, _ -> create space, __ -> creates dash
     cvLink: "#contact",
   },
   sidebar: {
     links: [
       {
         name: "github",
-        link: "https://github.com/agakadela",
+        link: "http://github.com/bouncei",
         icon: Github,
       },
       {
         name: "linkedin",
-        link: "https://www.linkedin.com/in/agakadela/",
+        link: "https://www.linkedin.com/in/joshua-inyang-2753841b7",
         icon: Linkedin,
       },
       {
-        name: "youtube",
-        link: "https://www.youtube.com/@agakadela",
-        icon: Youtube,
+        name: "instagram",
+        link: "https://www.instagram.com/bouncey__/",
+        icon: Instagram,
       },
     ],
   },
@@ -164,10 +164,22 @@ const data = {
         src: "/skills/mongoDB.svg",
         link: "https://en.wikipedia.org/wiki/MongoDB",
       },
+      {
+        id: 16,
+        name: "supabase",
+        src: "/skills/supabase.svg",
+        link: "https://en.wikipedia.org/wiki/supabase",
+      },
+      {
+        id: 17,
+        name: "expo",
+        src: "/skills/expo.svg",
+        link: "https://en.wikipedia.org/wiki/expo",
+      },
     ],
   },
   contact: {
-    email: "aga.kadela.dev@gmail.com",
+    email: "joshuainyang255@gmail.com",
   },
 };
 

@@ -7,51 +7,58 @@ const firaCode = Fira_Code({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: {
     default:
-      "Aga Kadela | Next.js & React Developer | AI Integration Specialist",
-    template: "%s | Aga Kadela",
+      "Joshua Inyang | Next.js, React Native & React Developer | AI Integration Specialist",
+    template: "%s | Joshua Inyang",
   },
   description:
-    "Senior Full Stack Developer specializing in Next.js, React, and AI Integration. Expert in building high-performance web applications with modern technologies.",
+    "Senior Full Stack Developer, Mobile & UX Engineer specializing in Next.js, React, and AI Integration. Expert in building high-performance web applications with modern technologies.",
   keywords: [
     "Next.js Developer",
     "React Developer",
+    "React Native Developer",
+    "Python Developer",
+    "Flask Developer",
     "AI Integration",
     "Full Stack Developer",
+    "Fast API Developer",
     "Web Development",
     "JavaScript",
     "TypeScript",
+    "Python",
+    "Backend Developer",
     "Frontend Developer",
     "Software Engineer",
     "Web Applications",
+    "Mobile Application",
     "Performance Optimization",
-    "Aga Kadela",
+    "Joshua Inyang",
   ],
-  authors: [{ name: "Aga Kadela" }],
-  creator: "Aga Kadela",
+  authors: [{ name: "Joshua Inyang" }],
+  creator: "Joshua Inyang",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://agakadela.com",
-    siteName: "Aga Kadela Portfolio",
-    title: "Aga Kadela | Next.js & React Developer",
+    url: "https://bouncei.vercel.app",
+    siteName: "Joshua Inyang Portfolio",
+    title: "Joshua Inyang | Next.js & React Developer",
     description:
-      "Senior Full Stack Developer specializing in Next.js, React, and AI Integration. Building high-performance web applications.",
+      "Senior Full Stack Developer, Mobile & UX Engineer specializing in Next.js, React, and AI Integration.  Building high-performance web applications.",
     images: [
       {
         url: "/imgs/website.png",
         width: 1200,
         height: 630,
-        alt: "Aga Kadela - Next.js & React Developer",
+        alt: "Joshua Inyang - Next.js & React Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aga Kadela | Next.js & React Developer",
+    title: "Joshua Inyang | Next.js , React Native & React Developer",
     description:
-      "Senior Full Stack Developer specializing in Next.js, React, and AI Integration",
+      "Senior Full Stack Developer, Mobile & UX Engineer specializing in Next.js, React, and AI Integration.",
     images: ["/imgs/website.png"],
-    creator: "@agakadela",
+    creator: "@InyangJoshua8",
   },
   robots: {
     index: true,
@@ -65,7 +72,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://agakadela.com",
+    canonical: "https://bouncei.vercel.app",
   },
   icons: {
     icon: "/imgs/logo.png",

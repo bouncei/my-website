@@ -1,9 +1,9 @@
 "use client";
 import useCurSection from "@/hooks/use-cur-section";
 import Image from "next/image";
-import { Fragment, useRef } from "react";
+import { useRef } from "react";
 import { motion } from "framer-motion";
-import agakadela from "@/public/imgs/agakadela_mini.jpg";
+import agakadela from "@/public/imgs/prof.png";
 
 export default function AboutSection() {
   const ref = useRef(null);
@@ -57,10 +57,10 @@ export default function AboutSection() {
             transition={{ delay: 0.7, ease: "easeIn", duration: 0.5 }}
             className="text-muted-foreground text-justify"
           >
-            Hey, I’m Aga Kadela, a Next.js & React developer who helps
-            businesses fix, optimize, scale, and build high-performance web
-            applications. If your app is slow, buggy, struggling to scale, or
-            missing key AI-driven features—I can help.
+            Hey, I’m Joshua Inyang, a Next.js & React developer who helps
+            businesses fix, optimize, scale, and build high-performance web &
+            mobile applications. If your app is slow, buggy, struggling to
+            scale, or missing key AI-driven features—I can help.
             <br />
             <br />
             <span className="font-semibold">📌 What I Do Best:</span>
@@ -75,7 +75,7 @@ export default function AboutSection() {
             technical limits.
             <br />
             ✅ Building from Scratch – Creating fast, scalable, and future-proof
-            Next.js applications.
+            Web & Mobile applications.
             <br />
             ✅ AI-Powered Features – Automating workflows, integrating chatbots,
             and enhancing user engagement.
@@ -83,8 +83,9 @@ export default function AboutSection() {
             <br />
             <span className="font-semibold">📌 Why Work With Me?</span>
             <br />
-            🔹 I focus on real results, not just code. Your web app should run
-            fast, handle traffic, and grow without breaking—I make sure it does.
+            🔹 I focus on real results, not just code. Your application should
+            run fast, handle traffic, and grow without breaking—I make sure it
+            does.
             <br />
             🔹 I work fast and efficiently. No endless back-and-forth, no
             unnecessary delays—just solutions that work.

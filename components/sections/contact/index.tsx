@@ -23,7 +23,7 @@ export default function ContactSection() {
         alt="Contact"
         width={150}
         height={150}
-        className="my-4"
+        className="my-4 rounded-full"
       />
       <h1 className="text-center text-2xl md:text-4xl  mb-12">
         <span className="text-gradient-primary">{"{ "}</span>
