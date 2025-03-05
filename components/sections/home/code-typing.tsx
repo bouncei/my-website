@@ -9,11 +9,7 @@ const defaultProps = {
 
 const codeSnippet = `// Welcome to my AI-Powered Portfolio! 🚀
 import { MobileDeveloper, WebDeveloper, BackEndDeveloper } from 'joshua-inyang';
-
-
-
 import { AIExpertise } from '@/skills';
-
 
 function createAmazingWebsite() {
   const mySkills = {

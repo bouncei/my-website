@@ -21,6 +21,8 @@ export const metadata: Metadata = {
     "AI Integration",
     "Full Stack Developer",
     "Fast API Developer",
+    "Automation",
+    "Telegram Bots",
     "Web Development",
     "JavaScript",
     "TypeScript",

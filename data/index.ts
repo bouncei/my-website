@@ -31,35 +31,35 @@ const data = {
     projects: [
       {
         id: 1,
-        title: "Coder Woman Platform",
+        title: "Music Yarn",
         description:
-          "Platform to sell online courses, helping empower women in tech by making coding education accessible.\n\n Technologies Used: Next.js, React.js, CSS, Stripe API.",
-        image: "/projects-imgs/cw.png",
-        previewLink: "https://coderwoman.com",
+          "Yarn is a music application designed to revolutionize fan engagement and simplify artist discovery. \n\n By integrating hierarchical forum-style discussions and robust artist profiles, Yarn connects fans not only with their favorite artists & songs but also with one another, fostering a vibrant community.",
+        image: "/projects-imgs/yarn.png",
+        previewLink: "https://musicyarns.com",
       },
       {
         id: 2,
-        title: "RetroCech Website",
+        title: "Fusion AI",
         description:
-          "A professional and visually appealing website that captures the vintage style of the business while ensuring smooth performance and easy navigation. \n\n Technologies Used: Next.js, Tailwind CSS, React.js.",
-        image: "/projects-imgs/retrocech.png",
-        previewLink: "https://retrocech.com",
+          "The ultimate AI-powered platform for all your creative needs. \n\n Whether it's generating stunning images, writing code, producing videos, composing music, or engaging in meaningful conversations, FusionAI has got you covered.",
+        image: "/projects-imgs/fusionAI.png",
+        previewLink: "https://fusion-ai-iota.vercel.app",
       },
       {
         id: 3,
-        title: "E-commerce Platform",
+        title: "Troc2Work",
         description:
-          "Worked on one of a biggest e-commerce platform in Poland, as part of a Scrum team for 1.5 years, focusing on checkout and payment workflows. \n\n Technologies Used: Next.js, React.js, Tailwind CSS, Stripe API.",
-        image: "/projects-imgs/e-commerce.png",
-        previewLink: "https://x-kom.pl",
+          "TrocToWork is a user-friendly platform that facilitates the connection between companies that have goods or skills to share. \n\n With TrocToWork, the exchange of goods and services can strengthen ties in the community. By creating this platform, the goal was to contribute to the life of professional community, and to have a positive impact to consumers",
+        image: "/projects-imgs/ttw.png",
+        previewLink: "https://troc-to-work.fr",
       },
       {
         id: 4,
-        title: "Personal Portfolio Website",
+        title: "Coingecko Listing Bot",
         description:
-          "A reliable and polished website that makes it easy for the expert to share their skills and impress potential clients or employers. \n\n Technologies Used: Next.js, React.js, CSS.",
-        image: "/projects-imgs/lukaskadela.png",
-        previewLink: "https://lukaskadela.com",
+          "A telegram bot for providing price signals for the latest crypto coins listed in Coingecko.",
+        image: "/projects-imgs/coingecko.png",
+        previewLink: "https://t.me/CG_fastest_alerts",
       },
       // {
       //   id: 5,
@@ -175,6 +175,30 @@ const data = {
         name: "expo",
         src: "/skills/expo.svg",
         link: "https://en.wikipedia.org/wiki/expo",
+      },
+      {
+        id: 18,
+        name: "android",
+        src: "/skills/android.svg",
+        link: "https://en.wikipedia.org/wiki/android",
+      },
+      {
+        id: 19,
+        name: "flutter",
+        src: "/skills/flutter.svg",
+        link: "https://en.wikipedia.org/wiki/flutter",
+      },
+      {
+        id: 20,
+        name: "python",
+        src: "/skills/python.svg",
+        link: "https://en.wikipedia.org/wiki/python",
+      },
+      {
+        id: 21,
+        name: "redis",
+        src: "/skills/redis.svg",
+        link: "https://en.wikipedia.org/wiki/redis",
       },
     ],
   },
