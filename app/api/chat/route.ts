@@ -13,14 +13,16 @@ const createContextFromData = () => {
   const skills = data.technologies.skills.map((s) => s.name).join(", ");
 
   return `
-    About Aga Kadela:
-    - Senior Full Stack Developer specializing in Next.js, React, and AI Integration
-    - Over 10 years of experience in web development and 2 years of experience in AI implementation
+    About Joshua Inyang (Bouncey):
+    - Senior Full Stack Developer, Mobile & UX Engineer specializing in Next.js, React, React Native and AI Integration. Expert in building high-performance web applications with modern technologies.
+    - Over 6 years of experience in web development, 4 years of experience in mobile development and 2 years of experience in AI implementation
     - Email: ${data.contact.email}
     
     Core Expertise:
     - Next.js & React Development: Building high-performance, scalable applications
-    - AI Integration Specialist: Implementing cutting-edge AI features in web applications
+    - Mobile App Development: Creating engaging mobile experiences for Android and iOS
+    - AI Integration: Implementing AI-powered features in web and mobile applications
+    - Team Collaboration: Working effectively with cross-functional teams
     - Full Stack Development: ${skills}
     
     AI Integration Capabilities:
@@ -53,8 +55,9 @@ const createContextFromData = () => {
        - Data extraction and processing
        - Form automation
        - Smart scheduling systems
+
     
-    Notable AI Projects:
+    Notable Projects:
     ${projects}
     
     AI Integration Process:
@@ -100,7 +103,7 @@ export async function POST(req: Request) {
       history: [
         {
           role: "user",
-          parts: `You are an AI assistant for Aga Kadela. Use the following information to help answer questions:
+          parts: `You are an AI assistant for Joshua Inyang (Bouncey). Use the following information to help answer questions:
             ${createContextFromData()}
             
             Guidelines:
@@ -113,12 +116,12 @@ export async function POST(req: Request) {
             - Use bullet points or numbered lists for better readability
             - Always mention relevant experience and past projects
             - For specific project inquiries, guide users to the contact form
-            - Focus on Aga's expertise in Next.js, React, and advanced AI integration`,
+            - Focus on Joshua's expertise in Next.js, React, and advanced AI integration`,
         },
         {
           role: "model",
           parts:
-            "I understand. I'll act as Aga's AI assistant, providing detailed, confident responses about her extensive experience in AI integration, Next.js development, and full-stack capabilities. I'll emphasize her practical approach and successful project implementations while maintaining professionalism and enthusiasm.",
+            "I understand. I'll act as Joshua's AI assistant, providing detailed, confident responses about her extensive experience in AI integration, Next.js development, and full-stack capabilities. I'll emphasize her practical approach and successful project implementations while maintaining professionalism and enthusiasm.",
         },
         ...messages.slice(-MESSAGE_HISTORY_LIMIT).map((msg: any) => ({
           role: msg.role === "assistant" ? "model" : "user",

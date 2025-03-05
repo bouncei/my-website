@@ -90,7 +90,7 @@ The following environment variables are required:
 
 ## Contact
 
-Aga Kadela
+Joshua Inyang
 
 - Website: [agakadela.com](https://agakadela.com)
 - Email: aga.kadela.dev@gmail.com
@@ -111,4 +111,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by Aga Kadela
+Made with ❤️ by Joshua Inyang

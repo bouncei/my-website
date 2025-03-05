@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s | Joshua Inyang",
   },
   description:
-    "Senior Full Stack Developer, Mobile & UX Engineer specializing in Next.js, React, and AI Integration. Expert in building high-performance web applications with modern technologies.",
+    "Senior Full Stack Developer, Mobile & UX Engineer specializing in Next.js, React, React Native and AI Integration. Expert in building high-performance web applications with modern technologies.",
   keywords: [
     "Next.js Developer",
     "React Developer",
