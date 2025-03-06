@@ -42,15 +42,16 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://bouncei.vercel.app",
     siteName: "Joshua Inyang Portfolio",
-    title: "Joshua Inyang | Next.js & React Developer",
+    title:
+      "Joshua Inyang | Full Stack Developer | React Native | Next.js | React | Fast API | Django.",
     description:
-      "Senior Full Stack Developer, Mobile & UX Engineer specializing in Next.js, React, and AI Integration.  Building high-performance web applications.",
+      "Senior Full Stack Developer, Mobile & UX Engineer specializing in Next.js, React, and AI Integration.  Building high-performance web & mobile applications.",
     images: [
       {
         url: "/imgs/website.png",
         width: 1200,
         height: 630,
-        alt: "Joshua Inyang - Next.js & React Developer",
+        alt: "Joshua Inyang - Full stack Developer",
       },
     ],
   },
