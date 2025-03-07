@@ -61,15 +61,14 @@ const data = {
         image: "/projects-imgs/coingecko.png",
         previewLink: "https://t.me/CG_fastest_alerts",
       },
-      // {
-      //   id: 5,
-      //   title: "Trello Clone",
-      //   description:
-      //     "Clone of the Trello App which is a popular project management tool designed to help individuals and teams organize tasks and collaborate efficiently. It uses boards, lists, and cards to visually represent projects and tasks, making it easy to track progress and prioritize work.",
-      //   image: "/projects-imgs/trello.png",
-      //   githubLink: "https://github.com/mo-hassann/trello-app",
-      //   previewLink: "https://trello-app-v1.vercel.app",
-      // },
+      {
+        id: 5,
+        title: "Next.js 15 Supabase Starter Template",
+        description:
+          "A modern, production-ready Next.js 15 template with Zustand, Supabase, TailwindCSS, ShadCN, \n\n and Framer Motion for smooth development. Open for collaboration!",
+        image: "/projects-imgs/nextjs15-supabase-template.png",
+        previewLink: "https://nextjs15-supabase-template.vercel.app",
+      },
     ],
   },
   technologies: {
