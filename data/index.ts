@@ -85,6 +85,7 @@ const data = {
         src: "/skills/css.svg",
         link: "https://en.wikipedia.org/wiki/CSS",
       },
+
       {
         id: 3,
         name: "javascript",
