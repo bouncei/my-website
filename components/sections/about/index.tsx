@@ -57,10 +57,10 @@ export default function AboutSection() {
             transition={{ delay: 0.7, ease: "easeIn", duration: 0.5 }}
             className="text-muted-foreground text-justify"
           >
-            Hey, I’m Joshua Inyang, a Next.js & React developer who helps
-            businesses fix, optimize, scale, and build high-performance web &
-            mobile applications. If your app is slow, buggy, struggling to
-            scale, or missing key AI-driven features—I can help.
+            Hey, I’m Joshua Inyang, a Full Stack Developer who helps businesses
+            fix, optimize, scale, and build high-performance web & mobile
+            applications. If your app is slow, buggy, struggling to scale, or
+            missing key AI-driven features—I can help.
             <br />
             <br />
             <span className="font-semibold">📌 What I Do Best:</span>
