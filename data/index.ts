@@ -39,11 +39,11 @@ const data = {
       },
       {
         id: 2,
-        title: "Fusion AI",
+        title: "LSE Properties",
         description:
-          "The ultimate AI-powered platform for all your creative needs. \n\n Whether it's generating stunning images, writing code, producing videos, composing music, or engaging in meaningful conversations, FusionAI has got you covered.",
-        image: "/projects-imgs/fusionAI.png",
-        previewLink: "https://fusion-ai-iota.vercel.app",
+          "LSE Properties is a modern real estate platform showcasing luxury properties in Nigeria. \n\n Built with Next.js with a sleek UI, it features detailed property listings, virtual tours, and seamless inquiry system for potential buyers and renters to connect with agents.",
+        image: "/projects-imgs/lse.png",
+        previewLink: "https://lse-properties.vercel.app",
       },
       {
         id: 3,
@@ -55,6 +55,15 @@ const data = {
       },
       {
         id: 4,
+        title: "Fusion AI",
+        description:
+          "The ultimate AI-powered platform for all your creative needs. \n\n Whether it's generating stunning images, writing code, producing videos, composing music, or engaging in meaningful conversations, FusionAI has got you covered.",
+        image: "/projects-imgs/fusionAI.png",
+        previewLink: "https://fusion-ai-iota.vercel.app",
+      },
+
+      {
+        id: 5,
         title: "Coingecko Listing Bot",
         description:
           "A telegram bot for providing price signals for the latest crypto coins listed in Coingecko.",
@@ -62,7 +71,7 @@ const data = {
         previewLink: "https://t.me/CG_fastest_alerts",
       },
       {
-        id: 5,
+        id: 6,
         title: "Next.js 15 Supabase Starter Template",
         description:
           "A modern, production-ready Next.js 15 template with Zustand, Supabase, TailwindCSS, ShadCN, \n\n and Framer Motion for smooth development. Open for collaboration!",

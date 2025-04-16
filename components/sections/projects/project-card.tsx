@@ -44,6 +44,9 @@ export default function ProjectCard({ project }: props) {
           className="size-full bg-black/50 absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity"
         />
         <ExternalLink
+          onClick={() => {
+            window.open(project.previewLink, "_blank");
+          }}
           size={24}
           className="absolute top-4 right-4 opacity-90 hidden group-hover:block"
         />
