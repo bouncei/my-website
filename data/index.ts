@@ -1,4 +1,6 @@
 import { Github, Instagram, Linkedin, Youtube } from "lucide-react";
+import { title } from "process";
+import { deserialize } from "v8";
 
 const data = {
   home: {
@@ -31,6 +33,14 @@ const data = {
     projects: [
       {
         id: 1,
+        title: "Sales Parrot",
+        description:
+          "Sales-Parrot is an intuitive, AI-powered platform that empowers sales professionals—to scale lead generation and outreach with ease. Simply describe your ideal customer, and Sales-Parrot discovers, targets, and engages them on your behalf.",
+        image: "/projects-imgs/salesparrot.png",
+        previewLink: "https://salesparrot.com",
+      },
+      {
+        id: 2,
         title: "Music Yarn",
         description:
           "Yarn is a music application designed to revolutionize fan engagement and simplify artist discovery. \n\n By integrating hierarchical forum-style discussions and robust artist profiles, Yarn connects fans not only with their favorite artists & songs but also with one another, fostering a vibrant community.",
@@ -38,7 +48,15 @@ const data = {
         previewLink: "https://musicyarns.com",
       },
       {
-        id: 2,
+        id: 3,
+        title: "Kith & Kin",
+        description:
+          "Kith & Kin is a beautifully designed web application that brings to life the rich legacy of the Mosuro family. Built as a heritage storytelling platform, the site combines elegant visual presentation with intuitive navigation to help users explore family history, view member profiles, and stay informed about upcoming gatherings.",
+        image: "/projects-imgs/kith-kin.png",
+        previewLink: "https://kith.netlify.app/family-tree",
+      },
+      {
+        id: 4,
         title: "LSE Properties",
         description:
           "LSE Properties is a modern real estate platform showcasing luxury properties in Nigeria. \n\n Built with Next.js with a sleek UI, it features detailed property listings, virtual tours, and seamless inquiry system for potential buyers and renters to connect with agents.",
@@ -46,7 +64,7 @@ const data = {
         previewLink: "https://lse-properties.vercel.app",
       },
       {
-        id: 3,
+        id: 5,
         title: "Troc2Work",
         description:
           "TrocToWork is a user-friendly platform that facilitates the connection between companies that have goods or skills to share. \n\n With TrocToWork, the exchange of goods and services can strengthen ties in the community. By creating this platform, the goal was to contribute to the life of professional community, and to have a positive impact to consumers",
@@ -54,7 +72,7 @@ const data = {
         previewLink: "https://troc-to-work.fr",
       },
       {
-        id: 4,
+        id: 6,
         title: "Fusion AI",
         description:
           "The ultimate AI-powered platform for all your creative needs. \n\n Whether it's generating stunning images, writing code, producing videos, composing music, or engaging in meaningful conversations, FusionAI has got you covered.",
@@ -63,7 +81,7 @@ const data = {
       },
 
       {
-        id: 5,
+        id: 7,
         title: "Coingecko Listing Bot",
         description:
           "A telegram bot for providing price signals for the latest crypto coins listed in Coingecko.",
@@ -71,7 +89,7 @@ const data = {
         previewLink: "https://t.me/CG_fastest_alerts",
       },
       {
-        id: 6,
+        id: 8,
         title: "Next.js 15 Supabase Starter Template",
         description:
           "A modern, production-ready Next.js 15 template with Zustand, Supabase, TailwindCSS, ShadCN, \n\n and Framer Motion for smooth development. Open for collaboration!",
