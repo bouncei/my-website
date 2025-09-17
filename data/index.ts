@@ -67,7 +67,7 @@ const data = {
         id: 5,
         title: "Troc2Work",
         description:
-          "TrocToWork is a user-friendly platform that facilitates the connection between companies that have goods or skills to share. \n\n With TrocToWork, the exchange of goods and services can strengthen ties in the community. By creating this platform, the goal was to contribute to the life of professional community, and to have a positive impact to consumers",
+          "TrocToWork is a user-friendly B2B platform that facilitates the connection between companies that have goods or skills to share. \n\n With TrocToWork, the exchange of goods and services can strengthen ties in the community. By creating this platform, the goal was to contribute to the life of professional community, and to have a positive impact to consumers",
         image: "/projects-imgs/ttw.png",
         previewLink: "https://troc-to-work.fr",
       },
