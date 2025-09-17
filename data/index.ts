@@ -35,7 +35,7 @@ const data = {
         id: 1,
         title: "Sales Parrot",
         description:
-          "Sales-Parrot is an intuitive, AI-powered platform that empowers sales professionals—to scale lead generation and outreach with ease. Simply describe your ideal customer, and Sales-Parrot discovers, targets, and engages them on your behalf.",
+          "Sales Parrot is an intuitive, AI-powered platform that empowers sales professionals—to scale lead generation and outreach with ease. Simply describe your ideal customer, and Sales Parrot discovers, targets, and engages them on your behalf.",
         image: "/projects-imgs/salesparrot.png",
         previewLink: "https://salesparrot.com",
       },
