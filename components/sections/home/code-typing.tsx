@@ -16,13 +16,13 @@ function createAmazingWebsite() {
     webDev: ["Next.js", "React", "TS"],
     mobileDev: ["React Native", "Flutter"],
     backendDev: ["Node.js", "Express", "Fast API", "Python"],
-    aiTools: ["ChatGPT", "ML"],
-    passion: "Building AI apps"
+    aiTools: ["OpenAI", "LangChain", "Hugging Face", "Weaviate", "Google Vertex AI", "Gemini AI"],
+    passion: "Building AI apps & solutions for businesses"
   };
 
   return {
     message: "Let's work together!",
-    services: ["Web Apps", "Mobile Apps", "AI Features",],
+    services: ["Web Apps", "Mobile Apps", "AI Features", "AI Integration", "AI Solution Consulting"],
     contact: "Scroll down to connect →"
   };
 };`;
