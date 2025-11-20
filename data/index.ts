@@ -45,7 +45,17 @@ const data = {
         description:
           "Yarn is a music application designed to revolutionize fan engagement and simplify artist discovery. \n\n By integrating hierarchical forum-style discussions and robust artist profiles, Yarn connects fans not only with their favorite artists & songs but also with one another, fostering a vibrant community.",
         image: "/projects-imgs/yarn.png",
-        previewLink: "https://musicyarns.com",
+        previewLink:
+          "https://play.google.com/store/apps/details?id=com.thehouseofsounds.yarnapp&hl=en",
+      },
+
+      {
+        id: 9,
+        title: "KeenVPN - Modern VPN Service Platform",
+        description:
+          "KeenVPN is a secure virtual private network that protects your privacy online while helping you earn extra income.",
+        image: "/projects-imgs/keenvpn.png",
+        previewLink: "https://vpnkeen.com",
       },
       {
         id: 3,
@@ -53,7 +63,7 @@ const data = {
         description:
           "Kith & Kin is a beautifully designed web application that brings to life the rich legacy of the Mosuro family. Built as a heritage storytelling platform, the site combines elegant visual presentation with intuitive navigation to help users explore family history, view member profiles, and stay informed about upcoming gatherings.",
         image: "/projects-imgs/kith-kin.png",
-        previewLink: "https://kith.netlify.app/family-tree",
+        previewLink: "https://www.mosuro.com.ng/family-tree",
       },
       {
         id: 4,
@@ -61,7 +71,7 @@ const data = {
         description:
           "LSE Properties is a modern real estate platform showcasing luxury properties in Nigeria. \n\n Built with Next.js with a sleek UI, it features detailed property listings, virtual tours, and seamless inquiry system for potential buyers and renters to connect with agents.",
         image: "/projects-imgs/lse.png",
-        previewLink: "https://lse-properties.vercel.app",
+        previewLink: "https://www.propertiesbylse.com",
       },
       {
         id: 5,
@@ -70,14 +80,6 @@ const data = {
           "TrocToWork is a user-friendly B2B platform that facilitates the connection between companies that have goods or skills to share. \n\n With TrocToWork, the exchange of goods and services can strengthen ties in the community. By creating this platform, the goal was to contribute to the life of professional community, and to have a positive impact to consumers",
         image: "/projects-imgs/ttw.png",
         previewLink: "https://troc-to-work.fr",
-      },
-      {
-        id: 6,
-        title: "Fusion AI",
-        description:
-          "The ultimate AI-powered platform for all your creative needs. \n\n Whether it's generating stunning images, writing code, producing videos, composing music, or engaging in meaningful conversations, FusionAI has got you covered.",
-        image: "/projects-imgs/fusionAI.png",
-        previewLink: "https://fusion-ai-iota.vercel.app",
       },
 
       {
