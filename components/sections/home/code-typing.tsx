@@ -8,21 +8,22 @@ const defaultProps = {
 };
 
 const codeSnippet = `// Welcome to my AI-Powered Portfolio! 🚀
-import { MobileDeveloper, WebDeveloper, BackEndDeveloper } from 'joshua-inyang';
+import { MobileDeveloper, WebDeveloper, BackEndDeveloper, BlockchainDeveloper } from 'joshua-inyang';
 import { AIExpertise } from '@/skills';
 
 function createAmazingWebsite() {
   const mySkills = {
     webDev: ["Next.js", "React", "TS"],
-    mobileDev: ["React Native", "Flutter"],
+    mobileDev: ["React Native"],
     backendDev: ["Node.js", "Express", "Fast API", "Python"],
+    blockchain: ["Solidity", "Smart Contracts", "Web3.js", "Ethers.js"],
     aiTools: ["OpenAI", "LangChain", "Hugging Face", "Weaviate", "Google Vertex AI", "Gemini AI"],
     passion: "Building AI apps & solutions for businesses"
   };
 
   return {
     message: "Let's work together!",
-    services: ["Web Apps", "Mobile Apps", "AI Features", "AI Integration", "AI Solution Consulting"],
+    services: ["Web Apps", "Mobile Apps", "Blockchain dApps", "AI Features", "AI Integration", "AI Solution Consulting"],
     contact: "Scroll down to connect →"
   };
 };`;

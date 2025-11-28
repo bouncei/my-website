@@ -6,7 +6,7 @@ const data = {
   home: {
     name: "Joshua Inyang",
     description:
-      "I Fix, Optimize & Build #Software as a Full-stack #Mobile & #Web Engineer                - Powered by #AI", // # -> for css style, _ -> create space, __ -> creates dash
+      "I Fix, Optimize & Build #Software as a Full-stack #Mobile, #Web & #Blockchain Engineer                - Powered by #AI", // # -> for css style, _ -> create space, __ -> creates dash
     cvLink: "#contact",
   },
   sidebar: {
